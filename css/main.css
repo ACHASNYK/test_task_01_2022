@@ -421,7 +421,7 @@ a:link{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
 
