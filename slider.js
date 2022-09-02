@@ -26,3 +26,4 @@ function showSlides(n) {
    markers[index - 1].className += " active";
     
 }
+
