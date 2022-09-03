@@ -12,6 +12,7 @@ html {
     margin: 0;
     box-sizing: border-box;
     min-height: 100vh;
+    overflow: hidden;
 }
 a:link{
     text-decoration: none;
@@ -33,7 +34,7 @@ a:link{
     position: relative;
     width: 62.5vw;
     margin: 0;
-    border: 1px black solid;
+    
     height: fit-content;
     background-color: #ffffff;
     
@@ -45,7 +46,16 @@ a:link{
     padding-right: 75px; */
     
 }
-
+@media screen and (min-width: 1250px) {
+   .d_header{
+    min-height: 9vw;
+        width: 55.62vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+   } 
+}
 .d_header {
     /* box-sizing: border-box; */
     /* border: 1px black solid; */
@@ -185,7 +195,7 @@ a:link{
     width: 48.96vw;
     height: fit-content;
     background-color: var(--body-bg);
-    border: 1px black solid;
+    
     
     
 }
@@ -314,7 +324,7 @@ a:link{
 .sidebar_post_image {
     width: 100%;
     height: 26.04vw;
-    border: 1px black solid;
+    
     object-fit: cover;
 }
 
@@ -625,7 +635,7 @@ a:link{
 .side_board_container {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
+   
     position: relative;
     right: -2.5%;
     
@@ -633,14 +643,14 @@ a:link{
 }
 
 .side_container {
-    border: 1px black solid;
+    
     margin-left: 3vw;
     width: 14.8vw;
 }
 
 .side_banner {
     width: 100%;
-    border: 1px black solid;
+    
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -666,6 +676,7 @@ a:link{
     display: flex;
     flex-direction: row;
     gap: 1vw;
+    cursor: pointer;
 }
 .list_item_text {
     display: flex;

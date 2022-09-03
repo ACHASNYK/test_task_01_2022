@@ -22,7 +22,7 @@ a:link {
 .main {
     width: 100%;
     margin: 0;
-    border: 1px black solid;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +36,7 @@ a:link {
     position: relative;
     width: 100vw;
     margin: 0;
-    border: 1px black solid;
+    
     height: fit-content;
     background-color: #ffffff;
 
@@ -200,13 +200,13 @@ a:link {
     width: 85vw;
     height: fit-content;
     background-color: var(--body-bg);
-    border: 1px black solid;
+    
 
 
 }
 
 .side_board {
-    width: 34.4vw;
+    width: 70vw;
 }
 
 .fade-in {
@@ -258,8 +258,8 @@ a:link {
 }
 
 .sidebar_spec {
-    font-size: 1.5em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .text_area {
@@ -517,7 +517,7 @@ a:link {
 }
 
 .sidebar_special {
-    font-size: 1.2rem;
+    font-size: .8rem;
 }
 
 .shift {
@@ -657,36 +657,40 @@ a:link {
 }
 
 .side_board_container {
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
+    
+    justify-content: flex-end;
     position: relative;
-    right: -2.5%;
+    
+    
 
 
 }
 
 .side_container {
-    border: 1px black solid;
+    
     margin-left: 3vw;
-    width: 14.8vw;
+    width: 25vw;
+    
 }
 
 .side_banner {
     width: 100%;
-    border: 1px black solid;
+    
     height: fit-content;
     display: flex;
     flex-direction: column;
     position: sticky;
     position: -webkit-sticky;
-    top: 5px;
+    top: 60vw;
     margin-top: 4vw;
 }
 
 .side_photo {
     width: 100%;
-    height: 9.4vw;
+    height: 18vw;
 }
 
 .list {
@@ -731,13 +735,13 @@ a:link {
 
 .side_photo_bottom {
     width: 100%;
-    height: 13.12vw;
+    height: 23vw;
 }
 
 .photo_container_text {
     position: absolute;
-    top: 35%;
-    left: 18%;
+    top: 30%;
+    left: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -748,14 +752,14 @@ a:link {
 
 .text1 {
     font-family: 'Ubuntu';
-    font-size: 3em;
+    font-size: 1.2rem;
     color: var(--body-bg);
     font-weight: 300;
 }
 
 .text2 {
     font-family: "Ubuntu";
-    font-size: 1em;
+    font-size: .8em;
     font-weight: 300;
     color: var(--body-bg);
     text-transform: uppercase;
