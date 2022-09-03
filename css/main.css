@@ -300,7 +300,7 @@ a:link{
     filter: drop-shadow(0px 4px 35px rgba(69, 70, 71, 0.23));
 }
 
-.post_card:hover > .post_image {
+.post_card:hover .post_image {
     transform: scale(1.02);
 }
 .post_image {
