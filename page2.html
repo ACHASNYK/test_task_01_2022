@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Test task main page</title>
+    <meta name="description" content="test task main page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="./css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --body-bg: #ffffff;
+            --base-text-color: #626262;
+            --second-text-color: #b6b6b6;
+            --header-text-color: #000000;
+            --light-text-color: #bdb7aa;
+            --gray-100: #f0f0f0;
+            --gray-200: #8e959c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="d_header_block">
+            <header class="d_header">
+                <div class="title">MINIMØ</div>
+                <div class="header_links">
+                    <div class="links">lifestyle</div>
+                    <div class="links">photodiary</div>
+                    <div class="links">music</div>
+                    <div class="links">travel</div>
+                </div>
+
+            </header>
+            <div class="slider_container">
+                <div class="slides fade">
+                    <img class="header1" alt="image" src="/photo/coverimage.png" />
+                </div>
+                <div class="slides fade">
+                    <img class="header1" alt="image" src="/photo/image_8.png" />
+                </div>
+                <div class="slides fade">
+                    <img class="header1" alt="image" src="/photo/image_9.png" />
+                </div>
+                <a class="minusOne" onclick="handleSlide(-1)">&#10094;</a>
+                <a class="plusOne" onclick="handleSlide(1)">&#10095;</a>
+                <div class="markers">
+                    <span class="markers_item" onclick="currentSlide(1)"></span>
+                    <span class="markers_item" onclick="currentSlide(2)"></span>
+                    <span class="markers_item" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
+            <!-- </div> -->
+            <!-- </div> -->
+            <div class="side_board_container">
+            <div class="post_container side_board">
+                <div class="anounce">
+                    <div class="anounce_label">photodiary</div>
+                    <div class="anounce_title">The perfect weekend getaway</div>
+                    <p class="text_area">Lorem ipsum dolor sit amet. Ut cupiditate reiciendis ad quidem unde aut
+                        incidunt
+                        repellendus. Nam illo distinctio aut
+                        distinctio officia et dolore fugit et similique dolorem nam repudiandae consequatur.
+                        Ut quibusdam quod sit reprehenderit rerum qui vero dolore et quae excepturi rem magni mollitia
+                        hic
+                        illum earum. Sed beatae omnis ut amet quidem et vero eaque. <b>Ut voluptas voluptatum sed
+                            deleniti illo ut similique
+                            voluptatum sed provident esse sit vero debitis ut atque nesciunt ex distinctio
+                            consequuntur.</b>
+                        Est sint adipisci vel obcaecati nisi eos soluta voluptatum. Id galisum exercitationem aut dicta
+                        odio non eligendi
+                        beatae. Est facilis distinctio est fuga excepturi et recusandae tenetur non asperiores voluptate
+                        a architecto unde et
+                        sapiente itaque.
+
+                        Eos harum necessitatibus est sunt dicta ea quasi dolore et dolores quis At dolore minima ad
+                        earum delectus et doloremque
+                        quos. <br /><br /> Aut voluptatem beatae et voluptas beatae ex eaque quisquam et suscipit
+                        maiores sed dolores itaque aut ratione quia
+                        aut tempore voluptatem. Et consectetur perferendis qui illo molestiae nam neque dolor vel
+                        pariatur quia est labore enim? </p>
+                </div>
+
+
+                <div class="post_area big">
+                    <div class="big_post_card fade-in">
+                        <img class="sidebar_post_image" alt="card" src="./photo/image.png" />
+
+                    </div>
+                    <div class="big_post_card fade-in">
+                        <img class="sidebar_post_image" alt="card" src="./photo/image_0.png" />
+
+                    </div>
+                    <div class="big_post_card fade-in">
+                        <img class="sidebar_post_image" alt="card" src="./photo/image_1.png" />
+
+                    </div>
+
+
+                </div>
+
+                <div class="big_anounce_area">
+                    <div class="italic_text"><q>Ea placeat totam qui eaque internos At adipisci dolore ad vitae corporis
+                            id veritatis facilis aut neque perspiciatis.
+                            Qui eligendi sequi aut rerum nihil ea itaque autem id internos omnis.Non cupiditate nostrum
+                            ab voluptate saepe sed quis iure hic nostrum consequatur eos galisum iste. A voluptates
+                            ullam qui
+                            dolore illum culpa molestiae vel tempore assumenda non odio quia.</q></div>
+                    <div class="text_area">Lorem ipsum dolor sit amet. Id veniam sint est perferendis dolores ut tenetur
+                        enim et odit odit ut sequi quas et
+                        distinctio consequatur et laborum internos. Sed facilis voluptates ea dolorem atque et
+                        repudiandae voluptate aut quaerat
+                        expedita qui soluta iste. Aut impedit autem qui laboriosam officia non quis magnam tempora
+                        laudantium sed praesentium
+                        nulla ut dolores porro et dolores obcaecati?
+
+                        <b>Non cupiditate nostrum ab voluptate saepe sed quis iure hic nostrum consequatur eos galisum
+                            iste. A voluptates ullam qui
+                            dolore illum culpa molestiae vel tempore assumenda non odio quia.</b>Qui cumque odio a
+                        necessitatibus cupiditate ut maiores facilis non quam cumque aut sunt quis ut eaque suscipit At
+                        tempora rerum? Eum vero vero eos praesentium vero sed labore corporis et assumenda deleniti qui
+                        molestias repellendus
+                        sed quasi quia. Sed asperiores voluptas ut distinctio omnis eos tempora obcaecati aut obcaecati
+                        reiciendis! Sit sunt
+                        quia est excepturi illo est eveniet placeat hic dolor officia ad galisum labore.
+                    </div>
+                </div>
+                <div class="social_share">
+                    <!-- <div class="social_icons"> -->
+                    <div class="anounce_label">share</div>
+                    <img alt="icon" src="./photo/F_logo.png" title="grayscale" class="grayscale" />
+                    <img alt="icon" src="./photo/T_logo.png" title="grayscale" class="grayscale" />
+                    <img alt="icon" src="./photo/GG.png" title="grayscale" class="grayscale" />
+                    <img alt="icon" src="./photo/ttt.png" title="grayscale" class="grayscale" />
+                    <img alt="icon" src="./photo/pin.png" title="grayscale" class="grayscale" />
+
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="side_container">
+                <div class="side_banner">
+                <img alt="photo" class="side_photo" src="./photo/image_7.png"/>
+                <div class="anounce sidebar_banner">
+                    <div class="anounce_title sidebar_spec">About me</div>
+                    <div class="text_area sidebar_spc">Lorem ipsum dolor sit amet. 
+                        Est minima quod qui galisum ullam est optio distinctio. 
+                        Et labore blanditiis eos voluptatem
+                    quis et sint unde qui quod veritatis ut temporibus saepe et fuga quam. 
+                     
+                    Hic rerum dolor est sapiente sunt ut maxime 
+                    quia ut fuga quis sit eligendi sunt.</div>
+                </div>
+                <div class="social_share reverse">
+                    <!-- <div class="social_icons"> -->
+                    
+                    <img alt="icon" src="./photo/F_logo.png" title="grayscale" class="grayscale" />
+                    <img alt="icon" src="./photo/I_logo.png" title="grayscale" class="grayscale" />
+                    <img alt="icon" src="./photo/pin.png" title="grayscale" class="grayscale" />
+                
+                    <!-- </div> -->
+                </div>
+            
+            <div class="anounce_label">top posts</div>
+            <div class="list">
+                <div class="list_item">
+                    <div class="dot_shape">
+                    <div class="dot"></div>
+                    </div>
+                    <div class="list_item_text">
+                        <div class="small_card_text sidebar_special">A day exploring the Alps</div>
+                        <div class="anounce_label special">24 comments</div>
+                    </div>
+                </div>
+                <div class="list_item">
+                    <div class="dot_shape">
+                    <div class="dot"></div>
+                    </div>
+                    <div class="list_item_text">
+                        <div class="small_card_text sidebar_special">American dream</div>
+                        <div class="anounce_label special">19 comments</div>
+                    </div>
+                </div>
+                <div class="list_item">
+                <div class="dot_shape">
+                    <div class="dot"></div>
+                </div>
+                    <div class="list_item_text">
+                        <div class="small_card_text sidebar_special">Cold winter days</div>
+                        <div class="anounce_label special">15 comments</div>
+                    </div>
+                </div>
+            </div>
+            <div class="photo_container">
+            <img alt="photo" src="./photo/image_6.png" class="side_photo_bottom"/>
+             <div class="photo_container_text">
+                <div class="text1">250X250</div>
+                <div class="text2">banner spot</div>
+             </div>   
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="big_banner_body ">
+                <div class="anounce_label shift">you may also like</div>
+                <div class="big_banner_container">
+
+                    <div class="small_card"><a href="./index.html">
+                        <img alt="photo" class="small_card_photo" src="./photo/image_11.png" />
+                        <div class="small_card_text">Cold winter days</div></a>
+                    </div>
+                    <div class="small_card"><a href="./index.html">
+                        <img alt="photo" class="small_card_photo" src="./photo/image_12.png" />
+                        <div class="small_card_text">A day exploring the Alps</div></a>
+                    </div>
+                    <div class="small_card"><a href="./index.html">
+                        <img alt="photo" class="small_card_photo" src="./photo/image_13.png" />
+                        <div class="small_card_text">American dream</div></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="post_container">
+                <div class="chat_container">
+                    <div class="anounce_label">2 comments</div>
+                    <div class="chat_item">
+                        <img alt="chat" class="chat_photo" src="./photo/profilepicture.png" />
+                        <div class="chat_text">
+                            <div class="user_name">John Doe</div>
+                            <div class="text_area">Sit esse distinctio vel
+                                eveniet vero est nobis ea rerum dolores!
+                                Id assumenda dolorum eum aspernatur dignissimos ut
+                                placeat iure eos magni incidunt.</div>
+                            <div class="anounce_label chat_reply">reply</div>
+                        </div>
+                    </div>
+                    <div class="chat_item">
+                        <div class="user_logo">
+                            <div class="user_text">jd</div>
+                        </div>
+                        <div class="chat_text">
+                            <div class="user_name">Jane Doe</div>
+                            <div class="text_area">Lorem ipsum dolor sit amet.
+                                Sit odit dignissimos aut illo accusantium eum quaerat vitae.
+                                Ab eveniet quia et dolore quia
+                                33 eligendi ipsa.</div>
+                            <div class="anounce_label chat_reply">reply</div>
+                        </div>
+                    </div>
+                    <div class="chat_item">
+                        <div class="user_logo grey">
+                            <div class="user_text">jd</div>
+                        </div>
+                        <div class="input_text">
+                            <div class="anounce_label">join the discussion</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social_share bottom">
+                    <div class="anounce_label">connected with</div>
+                    <img alt="icon" src="./photo/T_logo.png" title="grayscale" class="grayscale" />
+                    <img alt="icon" src="./photo/F_logo.png" title="grayscale" class="grayscale" />
+                </div>
+            </div>
+
+
+
+
+            <div class="footer_container">
+                <div class="items_container">
+                    <div class='terms_container'>
+                        <span class="footer_text">Terms and conditions</span>
+                        <span class="footer_text">Privacy</span>
+                    </div>
+                    <div class="follow_container">
+                        <span class="footer_text">Follow</span>
+                        <img alt="icon" class='footer_icons' src="./photo/F_logo.png" />
+                        <img alt="icon" class='footer_icons' src="./photo/T_logo.png" />
+                        <img alt="icon" class='footer_icons' src="./photo/I_logo.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="./slider.js" async defer></script>
+    <script src="./fader.js" async defer></script>
+</body>
+
+</html>
